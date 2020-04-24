@@ -8,7 +8,6 @@ import com.google.firebase.firestore.FirebaseFirestore
 class Activity_Quizzes : AppCompatActivity() {
 
     private  val lista_preguntas: ArrayList<Quizzes> = ArrayList()
-    //poner el adapter
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -35,6 +34,5 @@ class Activity_Quizzes : AppCompatActivity() {
                 }
             }
         }
-
     }
 }
