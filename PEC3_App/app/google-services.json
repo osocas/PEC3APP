@@ -15,6 +15,14 @@
       },
       "oauth_client": [
         {
+          "client_id": "615195156867-gacg0t72lfsigajha81q5c03gp8jhd4l.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "edu.uoc.android",
+            "certificate_hash": "d1f9fef1530f4a0be34c052a99ba0ddf1811247a"
+          }
+        },
+        {
           "client_id": "615195156867-s6g243dbchpp8tm2b8ib00vjgjjkmac8.apps.googleusercontent.com",
           "client_type": 3
         }

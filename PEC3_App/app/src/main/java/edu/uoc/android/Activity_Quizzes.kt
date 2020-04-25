@@ -16,7 +16,9 @@ class Activity_Quizzes : AppCompatActivity() {
         val db : FirebaseFirestore= FirebaseFirestore.getInstance()
 
         db.collection("Quizzes").get().addOnCompleteListener{
+            Log.d("Etiqueta", "hola")
             if(it.isSuccessful){
+
                 lista_preguntas.clear()
                 for(documentos in it.result!!){
                     val title = documentos.getString("title")
